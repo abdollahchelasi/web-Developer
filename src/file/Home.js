@@ -85,7 +85,7 @@ function Home() {
               
 
                 <div className='web'>
-                <a className='linkk' target={'#'} href='http://jazire.ir' >
+                <a className='linkk' target={'#'} href='http://amoozeshgahjazire.ir' >
 
                 <img className='imgweb2' />
                 <p>آموزشگاه جزیره - قشم</p>
