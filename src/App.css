@@ -178,3 +178,81 @@
   margin-bottom: 25px;
 }
 
+.dev{
+  background-color: #1f1a1a;
+  border-radius: 5px;  
+  box-shadow: #000000 2px 2px 5px;
+}
+.dev:hover{
+  background-color: #442525;
+  box-shadow: black 2px 2px 9px;
+}
+.abdol{
+  border-radius: 50%;
+  margin: 5px;
+
+  
+}
+.abdol:hover{
+  border: #fffefe solid 1px;
+  box-shadow: #fffefe 1px 1px 4px;
+}
+.txtabdol{
+  color: #887171;
+  padding: 5px;
+  
+}
+
+.tarah{
+  color: rgb(13, 107, 107);
+  
+}
+.abdollah{
+  
+  color: rgb(143, 39, 39);
+}
+.call{
+  background-color: rgb(24, 24, 24);
+  text-align: center;
+  color: rgb(97, 95, 95);
+  padding-top: 4px;
+  padding-bottom: 5px;
+}
+.cl{
+  margin-bottom: 10px;
+}
+.tamas{
+  margin-right: 35%;
+  padding-top: 15px;
+}
+.tamas p{
+  float:right;
+  margin-left: 15px;
+  font-size: larger;
+}
+.tamas h3{
+  float:right;
+  box-shadow: cadetblue 2px 2px 5px;
+  color:cornsilk;
+  padding: 2px;
+  margin-right: 9px;
+  border-radius: 6px;
+
+}
+
+
+.insta:hover{
+box-shadow: rgb(190, 99, 76) 1px 2px 9px;
+border-radius: 50%;
+}
+
+.developer{
+text-align: center;
+padding-top: 3%;
+background-color: rgb(27, 15, 18);
+  
+}
+.pp{
+  color: #fffefe;
+}
+
