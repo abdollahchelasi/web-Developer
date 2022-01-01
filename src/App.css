@@ -234,6 +234,7 @@
   float:right;
   box-shadow: cadetblue 2px 2px 5px;
   color:cornsilk;
+  font-size: 1em;
   padding: 2px;
   margin-right: 9px;
   border-radius: 6px;
@@ -248,7 +249,7 @@ border-radius: 50%;
 
 .developer{
 text-align: center;
-padding-top: 3%;
+padding-top: 4px;
 background-color: rgb(27, 15, 18);
   
 }

@@ -6,6 +6,7 @@ import abdollah from '../image/a.jpg'
 import whatsapp from '../image/whatsapp.png'
 import insta from '../image/instaa.png'
 import tel from '../image/tel.png'
+import devs from '../image/devs.png'
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
       {/* Navbar */}
       <Navbar bg="dark" variant='dark' expand="md">
         <Container fluid>
+          <Navbar.Brand><img width={50} src={devs}/></Navbar.Brand>
           <Navbar.Brand className='title' href="#home"><b style={{ color: '#dce22f' }}>طراح سایت</b> و <b style={{ color: '#3c2fe2' }}>برنامه نویس</b></Navbar.Brand>
           <Navbar.Toggle className='navtogel' aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
