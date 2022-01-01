@@ -168,7 +168,6 @@
   width: 260px;
   height: 100px;
   margin-top: 14px;
-  margin-right: 30px;
   border-radius: 7px;
   
   background-color: rgb(41, 53, 53);
@@ -193,7 +192,7 @@
  
 }
 .dev:hover{
-  transform: skewX(190deg);
+  transform: skewX(177deg);
   background-color: #442525;
   box-shadow: black 2px 2px 9px;
 }
@@ -225,6 +224,7 @@
   background-color: rgb(24, 24, 24);
   text-align: center;
   color: rgb(97, 95, 95);
+  
   padding-top: 4px;
   padding-bottom: 5px;
 }
@@ -232,7 +232,7 @@
   margin-bottom: 10px;
 }
 .tamas{
-  margin-right: 35%;
+  margin-right: 3%;
   padding-top: 15px;
 }
 .tamas p{
