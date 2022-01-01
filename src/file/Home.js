@@ -14,7 +14,7 @@ function Home() {
       {/* Navbar */}
       <Navbar bg="dark" variant='dark' expand="md">
         <Container fluid>
-          <Navbar.Brand><img width={50} src={devs}/></Navbar.Brand>
+          <Navbar.Brand><img width={50} src={devs} /></Navbar.Brand>
           <Navbar.Brand className='title' href="#home"><b style={{ color: '#dce22f' }}>طراح سایت</b> و <b style={{ color: '#3c2fe2' }}>برنامه نویس</b></Navbar.Brand>
           <Navbar.Toggle className='navtogel' aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
@@ -64,106 +64,111 @@ function Home() {
       {/* Project */}
       <Container fluid className='home'>
 
-
-        <Container fluid className='nemoonehweb'>
-          <Row>
-            <Col sm={12} className='nemonekar' id='nemoone'>
-              <h1> وبسایت</h1><hr />
-            </Col>
-
-
-            <Col xm={6} className='colweb'>
-
-              <div className='web' >
-                <a className='linkk' target={'#'} href='http://electriciabdollah.ir' >
-
-                  <img className='imgweb1' />
-                  <p>الکتریکی عبدالله</p>
-                </a>
-              </div>
+        <Row>
+          <Col sm={8}>
+            <Container fluid className='nemoonehweb'>
+              <Row>
+                <Col sm={12} className='nemonekar' id='nemoone'>
+                  <h1> وبسایت</h1><hr />
+                </Col>
 
 
+                <Col xm={6} className='colweb'>
 
-            </Col>
+                  <div className='web' >
+                    <a className='linkk' target={'#'} href='http://electriciabdollah.ir' >
 
-
-            <Col xm={6}>
-
-
-              <div className='web'>
-                <a className='linkk' target={'#'} href='http://amoozeshgahjazire.ir' >
-
-                  <img className='imgweb2' />
-                  <p>آموزشگاه جزیره - قشم</p>
-                </a>
-
-
-              </div>
-
-            </Col>
-
-          </Row>
-
-
-        </Container>
+                      <img className='imgweb1' />
+                      <p>الکتریکی عبدالله</p>
+                    </a>
+                  </div>
 
 
 
+                </Col>
+
+
+                <Col xm={6}>
+
+
+                  <div className='web'>
+                    <a className='linkk' target={'#'} href='http://amoozeshgahjazire.ir' >
+
+                      <img className='imgweb2' />
+                      <p>آموزشگاه جزیره - قشم</p>
+                    </a>
+
+
+                  </div>
+
+                </Col>
+
+              </Row>
+
+
+            </Container>
+          </Col>
+
+          <Col sm={4}>
+
+
+            <Container fluid className='nemoonehmobile'>
+              <Row>
+
+                <Col sm={12} className='nemonekar' id='nemoone'>
+                  <h1> موبایل</h1><hr />
+                </Col>
+
+                <Col sm={12} xl={6}>
+
+                  <div className='mobile'>
+
+                    <img className='imgmob1' />
+                    <p>ساخت بازی</p>
+                  </div>
+
+                </Col>
+
+
+                <Col sm={12} xl={6}>
+
+                  <div className='mobile'>
+                    <img className='imgmob2' />
+                    <p>ماریو قشمی</p>
+
+                  </div>
+
+                </Col>
+
+                <Col sm={12}>
+
+                  <div className='mobile'>
+                    <img className='imgmob3' />
+                    <p>ساخت بازی 2</p>
+
+                  </div>
+
+                </Col>
+
+                <Col sm={12}>
+                  <div className='app'>
+                    <a target={'#'} href='https://myket.ir/developer/dev-46469'>
+                      <h2>دیگر برنامه ها</h2>
+                    </a>
+                  </div>
+                </Col>
 
 
 
-        <Container fluid className='nemoonehmobile'>
-          <Row>
-
-            <Col sm={12} className='nemonekar' id='nemoone'>
-              <h1> موبایل</h1><hr />
-            </Col>
-
-            <Col sm={3}>
-
-              <div className='mobile'>
-
-                <img className='imgmob1' />
-                <p>ساخت بازی</p>
-              </div>
-
-            </Col>
+              </Row>
 
 
-            <Col sm={3}>
-
-              <div className='mobile'>
-                <img className='imgmob2' />
-                <p>ماریو قشمی</p>
-
-              </div>
-
-            </Col>
-
-            <Col sm={3}>
-
-              <div className='mobile'>
-                <img className='imgmob3' />
-                <p>ساخت بازی 2</p>
-
-              </div>
-
-            </Col>
-
-            <Col sm={12}>
-              <div className='app'>
-                <a target={'#'} href='https://myket.ir/developer/dev-46469'>
-                  <h2>دیگر برنامه ها</h2>
-                </a>
-              </div>
-            </Col>
+            </Container>
+          </Col>
+        </Row>
 
 
 
-          </Row>
-
-
-        </Container>
 
 
 
@@ -193,28 +198,28 @@ function Home() {
         <Row>
           <Col md={12}>
             <div >
-              <h4>ارتباط با من</h4><hr/>
+              <h4>ارتباط با من</h4><hr />
             </div>
           </Col>
 
           <Col className='cl' md={4}>
-          <a href='https://api.whatsapp.com/send?phone=09335825325' target={'#'}>
-          <img src={whatsapp} className='insta'/>
-          </a>
+            <a href='https://api.whatsapp.com/send?phone=09335825325' target={'#'}>
+              <img src={whatsapp} className='insta' />
+            </a>
           </Col>
 
 
           <Col className='cl' md={4}>
-          <a target={'#'} href='https://www.instagram.com/abdollahchelasi/'>
-            <img src={insta} className='insta'/>
-          </a>
-          
+            <a target={'#'} href='https://www.instagram.com/abdollahchelasi/'>
+              <img src={insta} className='insta' />
+            </a>
+
           </Col>
-          
+
           <Col className='cl' md={4}>
-          <a target={'#'} href='https://telegram.me/abdollah_chelasi'>
-          <img src={tel} className='insta'/>
-          </a>
+            <a target={'#'} href='https://telegram.me/abdollah_chelasi'>
+              <img src={tel} className='insta' />
+            </a>
           </Col>
 
           <Col className='tamas' md={12}>
@@ -223,7 +228,7 @@ function Home() {
           </Col>
 
           <Col className='developer' md={12}>
-          <p className='pp'>طراح و برنامه نویس : عبدالله چلاسی</p>
+            <p className='pp'>طراح و برنامه نویس : عبدالله چلاسی</p>
 
           </Col>
         </Row>

@@ -72,10 +72,17 @@
   right: 0;
   border-radius: 5px;
   margin-bottom: 5px;
+  
   background-color: rgb(28, 28, 29);
   box-shadow: rgb(0, 0, 0) 2px 2px 7px;
 }
+.nemoonehweb:hover{
+  transform: skewY(190deg);
+}
 
+.nemoonehmobile:hover{
+  transform: skewY(170deg);
+}
 
 .nemoonehmobile{
   padding: 15px;
@@ -84,8 +91,10 @@
   right: 0;
   border-radius: 5px;
   margin-bottom: 10px;
+  
   background-color: rgb(28, 28, 29);
   box-shadow: rgb(0, 0, 0) 2px 2px 7px;
+  
 
 }
 .linkk{
@@ -174,16 +183,17 @@
   margin-right: 30px;
   border-radius: 7px;
   background-color: rgb(41, 53, 53);
-  transform: skew(165deg);
-  margin-bottom: 25px;
+  margin-bottom: 7px;
 }
 
 .dev{
   background-color: #1f1a1a;
   border-radius: 5px;  
   box-shadow: #000000 2px 2px 5px;
+ 
 }
 .dev:hover{
+  transform: skewX(190deg);
   background-color: #442525;
   box-shadow: black 2px 2px 9px;
 }
